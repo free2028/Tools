@@ -1,6 +1,8 @@
 # 代码目的
 
-将多个路径下的文件放在同一个dict中, 比对其md5值, 输出重复的文件路径
+duplicated_file_check.py: 将多个路径下的文件放在同一个dict中, 比对其md5值, 输出重复的图片文件路径(到指定目录下midfile/duplicates.json)
+
+delete_file.py: 根据上一步检查出的重复图片, 进行删除
 
 # 主要特性：
 
